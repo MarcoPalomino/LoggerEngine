@@ -42,7 +42,7 @@ The header section has three input controls. These fields allow the system to lo
 
 ### Test Section
 
-* **Message**: It is the message the will be logged.
+* **Message**: It is the message that will be logged.
 * **Type**: It is the message type. It could be (Warning, Informative or Error)
 * **Logger Engine**: It is the logger engine. (Console, File or Database)
 
@@ -50,7 +50,9 @@ The "Log Message" button will allow the user to **LOG** the message entered with
 
 * Creation Date / Type/ Message 
 
-The system should validate that the selected Assembly was previouslly loaded; otherwise, it should display an error message.
+At the end, if the log is processed succesfully, the system should display an error message. In background the @Log entity used in the application will have a new status that indicates the Log was saved without issues.
+
+Finally, the system should validate that the selected Assembly was previouslly loaded; otherwise, it should display an error message.
 
 ## Pluggable Engine
 
