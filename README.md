@@ -20,9 +20,15 @@ The above .dll files were already generated from other class libraries. For test
 * https://github.com/MarcoPalomino/ConsoleLogger
 * https://github.com/MarcoPalomino/DatabaseLogger
 
-Those .dll files are available in the below path within the solution:
+On the other hand, in order to add assemblies to the application, all external logger engines should be added to the below path:
 
 * `[SolutionPath]\LoggerEngine\LoggerEngine\bin\Debug` -- (I)
+
+Finally, just for testing purposes, the logger assemblies are located in the below path:
+
+* `[SolutionPath]\LoggerEngine\LoggerEngine.Util\ExternalReferences` -- (II)
+
+Just copy the assemblies from (II) to (I) for using those libraries in the application.
 
 ## Main Screen
 
@@ -37,7 +43,7 @@ The WPF application shows a single screen with the below functionality:
 The header section has three input controls. These fields allow the system to load/unload the specific Assembly provided.
 
 * **Logger Engine**: This field asks for the specific Logger Engine to load. It could be (File, Database or Console)
-* **Assembly Name**: This field asks for the **exact** Assembly Name. Just for testing purposes, it could be (FileLogger, ConsoleLogger or DatabaseLogger). **_Only the Assemblies previouslly added to the path in (I) would be visible to the application._**
+* **Assembly Name**: This field asks for the **exact** Assembly Name. Just for testing purposes, it could be (FileLogger, ConsoleLogger or DatabaseLogger). **_Only the Assemblies previouslly added to the path in (II) would be visible to the application._**
 * **Domain Name**: This field asks for the new AppDomain that should be created in order to load the Assembly. With a new AppDomain, the app will be able to Unload the assemblies.
 
 ### Test Section
