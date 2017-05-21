@@ -24,11 +24,11 @@ On the other hand, in order to add assemblies to the application, all external l
 
 * `[SolutionPath]\LoggerEngine\LoggerEngine\bin\Debug` -- (I)
 
-Finally, just for testing purposes, the logger assemblies are located in the below path:
+You could build the class libraries from my other repositories mentioned before, but in the below path you could get the logger assemblies already created:
 
 * `[SolutionPath]\LoggerEngine\LoggerEngine.Util\ExternalReferences` -- (II)
 
-Just copy the assemblies from (II) to (I) for using those libraries in the application.
+Just copy the assemblies from (II) to (I) for using those libraries in the application. **On the other hand, copy those assemblies in the Test project for running the unit tests.**
 
 ## Main Screen
 
