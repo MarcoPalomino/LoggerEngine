@@ -46,6 +46,9 @@
     <Compile Include="ValidationUtil.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ExternalReferences\ConsoleLogger.dll" />
+    <Content Include="ExternalReferences\DatabaseLogger.dll" />
+    <Content Include="ExternalReferences\FileLogger.dll" />
     <Content Include="Image\LoggerEngineMainScreen.png" />
     <Content Include="ScriptSQL\DB_LOGGER_CREATE_TABLE.sql" />
     <Content Include="ScriptSQL\SPU_INS_DB_LOGGER.sql" />
