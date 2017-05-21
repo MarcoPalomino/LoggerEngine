@@ -14,7 +14,11 @@ The below are the current Assemblies allowed:
 * **ConsoleLogger**: Log to Console (**ConsoleLogger.dll**).
 * **DatabaseLooger**: Log to Database (**DatabaseLogger.dll**).
 
-The above .dll files were already generated from other class libraries. For testing purposes, all of them are available in the current solution. If you want to see the engine of those loggers, please go to my other repositories.
+The above .dll files were already generated from other class libraries. For testing purposes, all of them are available in the current solution. If you want to see the engine of those loggers, please go to my other repositories:
+
+* https://github.com/MarcoPalomino/FileLogger
+* https://github.com/MarcoPalomino/ConsoleLogger
+* https://github.com/MarcoPalomino/DatabaseLogger
 
 Those .dll files are available in the below path within the solution:
 
