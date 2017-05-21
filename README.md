@@ -7,7 +7,8 @@ The LoggerEngine app is a C#-WPF that emulates the assembly loader using .Net fr
 * Database
 
 The application is able to load/unload specific assemblies regarding the location defined. For that, it is able to load/unload the Assembly provided in execution time.
-The current Assemblies that are allowed in the application are:
+
+The below are the current Assemblies allowed:
 
 * **FileLogger**: Log to disk file (**FileLogger.dll**).
 * **ConsoleLogger**: Log to Console (**ConsoleLogger.dll**).
@@ -15,7 +16,8 @@ The current Assemblies that are allowed in the application are:
 
 The above .dll files were already generated from other class libraries. For testing purposes, all of them are available in the current solution. If you want to see the engine of those loggers, please go to my other repositories.
 
-!Those .dll files are available in the below path within the solution:
+Those .dll files are available in the below path within the solution:
+
 * `[SolutionPath]\LoggerEngine\LoggerEngine\bin\Debug` -- (I)
 
 ## Main Screen
