@@ -102,7 +102,6 @@ namespace LoggerEngine.AssemblyManager
             var assemblyUnloadedFromDomain = true;
             try
             {
-
                 if (!CurrentDomains.ContainsKey(loggerEngineType))
                     return true;
 

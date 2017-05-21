@@ -15,12 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerEngine.Controller", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerEngine.Util", "LoggerEngine.Util\LoggerEngine.Util.csproj", "{B486BE2C-AF16-4D89-A7A6-CAD4C0F60656}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SriptSQL", "SriptSQL", "{975E90D4-4BE9-4600-8A6F-EC7FB054D4FF}"
-	ProjectSection(SolutionItems) = preProject
-		..\Pasados\LOGGER\DB_LOGGER_CREATE_TABLE.sql = ..\Pasados\LOGGER\DB_LOGGER_CREATE_TABLE.sql
-		..\Pasados\LOGGER\SPU_INS_DB_LOGGER.sql = ..\Pasados\LOGGER\SPU_INS_DB_LOGGER.sql
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

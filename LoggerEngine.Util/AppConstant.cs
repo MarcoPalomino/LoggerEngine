@@ -3,7 +3,7 @@
     public class AppConstant
     {
         /// <summary>
-        /// 
+        /// Main Method To Invoke with Reflection
         /// </summary>
         public class LogMethod
         {

@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidationUtil.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ScriptSQL\DB_LOGGER_CREATE_TABLE.sql" />
+    <Content Include="ScriptSQL\SPU_INS_DB_LOGGER.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
