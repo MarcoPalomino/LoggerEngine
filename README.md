@@ -56,23 +56,22 @@ The "Log Message" button will allow the user to **LOG** the message entered with
 
 * Creation Date / Type/ Message 
 
-At the end, if the log is processed succesfully, the system should display an error message. In background the @Log entity used in the application will have a new status that indicates the Log was saved without issues.
+At the end, if the log is processed succesfully, the system should display a successfully message. In background the @Log entity used in the application will have a new status that indicates the Log was saved without issues.
 
 Finally, the system should validate that the selected Assembly was previouslly loaded; otherwise, it should display an error message.
 
 ## Pluggable Engine
 
-Currently, the system assumes three Logger Engines, but if you want to prepare and user your own FileLogger or ConsoleLogger, you just have to **_replace the FileLogger.dll or ConsoleLogger.dll_** in:
+Currently, the system assumes three Logger Engines, but if you want to prepare and user your own FileLogger or ConsoleLogger, you just have to **_replace the FileLogger.dll or ConsoleLogger.dll or DatabaseLogger.dll_** in:
 
 * `[SolutionPath]\LoggerEngine\LoggerEngine\bin\Debug` -- (I)
 
 ## Final Considerations
 
+- [x] Load the assemblies before using the Log engine in the Application.
 - [x] Update App.config with your current settings. For instance: "ConnectionString"
 - [x] Run the SQL scripts provided in the solution. It creates the DBLogger table and the Stored procedure that inserts the log.
 - [x] Copy the assemblies mentioned from (II) to (I)
-- [x] Load the assemblies before using the Log engine in the Application.
 - [x] Make sure to have the folder already created in the path defined. By default is D:\Log
 
-As I mentioned before, it is just an experiment for loading/unloading assemblies in execution time. Any doubt or improvement, is well received. 
-Please contact me.   :+1:
+As I mentioned before, it is just an experiment for loading/unloading assemblies in execution time. Any doubt or improvement, it is well received. :+1:
