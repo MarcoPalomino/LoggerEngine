@@ -43,7 +43,7 @@ The WPF application shows a single screen with the below functionality:
 The header section has three input controls. These fields allow the system to load/unload the specific Assembly provided.
 
 * **Logger Engine**: This field asks for the specific Logger Engine to load. It could be (File, Database or Console)
-* **Assembly Name**: This field asks for the **exact** Assembly Name. Just for testing purposes, it could be (FileLogger, ConsoleLogger or DatabaseLogger). **_Only the Assemblies previouslly added to the path in (II) would be visible to the application._**
+* **Assembly Name**: This field asks for the **exact** Assembly Name. Just for testing purposes, it could be (FileLogger, ConsoleLogger or DatabaseLogger). **_Only the Assemblies previouslly added to the path in (I) would be visible to the application._**
 * **Domain Name**: This field asks for the new AppDomain that should be created in order to load the Assembly. With a new AppDomain, the app will be able to Unload the assemblies.
 
 ### Test Section
