@@ -66,5 +66,13 @@ Currently, the system assumes three Logger Engines, but if you want to prepare a
 
 * `[SolutionPath]\LoggerEngine\LoggerEngine\bin\Debug` -- (I)
 
+## Final Considerations
+
+- [x] Update App.config with your current settings. For instance: "ConnectionString"
+- [x] Run the SQL scripts provided in the solution. It creates the DBLogger table and the Stored procedure that inserts the log.
+- [x] Copy the assemblies mentioned from (II) to (I)
+- [x] Load the assemblies before using the Log engine in the Application.
+- [x] The "Display Assemblies" in the application shows the current loaded assemblies.
+
 As I mentioned before, it is just an experiment for loading/unloading assemblies in execution time. Any doubt or improvement, is well received. 
 Please contact me.   :+1:
