@@ -72,8 +72,7 @@ Currently, the system assumes three Logger Engines, but if you want to prepare a
 - [x] Run the SQL scripts provided in the solution. It creates the DBLogger table and the Stored procedure that inserts the log.
 - [x] Copy the assemblies mentioned from (II) to (I)
 - [x] Load the assemblies before using the Log engine in the Application.
-- [x] The "Display Assemblies" in the application shows the current loaded assemblies.
-- [x] Make sure to have enough privileges for creating a File in the path specified. By default, the paht defined is D:\Log
+- [x] Make sure to have the folder already created in the path defined. By default is D:\Log
 
 As I mentioned before, it is just an experiment for loading/unloading assemblies in execution time. Any doubt or improvement, is well received. 
 Please contact me.   :+1:
